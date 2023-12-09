@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p start-frontend ",
-    "start-frontend": "cd front-end && npm start"
+    "start-frontend": "cd front-end && react-scripts start"
     
   },
   "keywords": [],
