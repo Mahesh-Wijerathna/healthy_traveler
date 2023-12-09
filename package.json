@@ -4,7 +4,7 @@
   "description": "\"# healthy_traveler\"",
   "main": "index.js",
   "scripts": {
-    "start": "npm-run-all -p build ",
+    "start": "npm-run-all -p build start-frontend",
     "build": "cd front-end && react-scripts build",
     "start-frontend": "cd front-end && npm run build"
     
