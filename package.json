@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all -p start-frontend ",
+    "build": "cd front-end && npm run build",
     "start-frontend": "cd front-end && npm run build"
     
   },
